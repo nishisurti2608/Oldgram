@@ -1,0 +1,120 @@
+/* Layout */
+body{
+    margin: 0;
+    font-family: 'Source Sans 3',sans-serif;
+    background-color: darkgrey;
+}
+
+
+
+.center-contain{
+    width: 375px;
+    background-color:white;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+.container{
+    width: 375px;
+   
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 16px;
+    border-bottom: 1px solid darkgray;
+
+    
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
+}
+
+
+
+
+/* images */
+
+.logo{
+    width: 130px;
+   
+    
+}
+
+.avatar{
+width: 50px;
+height: 50px;
+border-radius: 30px;
+}
+
+
+.post-img{
+    width: 375px;
+}
+
+.user-info{
+    padding-left:10px;
+    margin: 20px 0;
+}
+
+.extra-features{
+    padding: 0 4px
+}
+
+.feature{
+    width: 24px;
+    padding: 5px;
+   
+}
+
+/* Typography */
+
+.user-info  p{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0; 
+    line-height: 15px;
+ 
+  
+}
+
+.user-info span{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+
+.likes p{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 8px 0; 
+    padding-left: 10px;
+}
+.comment{
+    display: flex;
+    padding-bottom: 10px;
+}
+.comment span{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0; 
+    padding-left: 10px;
+    
+}
+
+.comment p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 5px;
+
+}
+
