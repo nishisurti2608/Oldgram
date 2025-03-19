@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
                 
-                <img class="post-img" src="${post.post}" alt="Post by ${post.name}">
+                <img class="post-img" src="${post.post}" alt="Post by ${post.name}" id="post-${post.username}"]>
                 
                 <div class="extra-features">
                     <img class="feature" src="images/icon-heart.png" alt="Like">
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <img class="feature" src="images/icon-dm.png" alt="Share">
                 </div>
 
-                <div class="likes">
+                <div class="likes" id="like-count">
                     <p>${post.likes} likes</p>
                 </div>
 
